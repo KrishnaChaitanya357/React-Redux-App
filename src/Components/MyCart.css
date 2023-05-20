@@ -1,0 +1,48 @@
+ *{
+    font-family:sans-serif
+  }
+
+  .card{
+    width:300px;
+    max-height:450px;margin-top:5px;
+    margin-bottom:15px}
+  
+    .card-img-top{
+       margin:auto;
+      
+       width: 270px;
+       height:250px}
+    
+.col{
+   
+    position: relative;
+    left: 10px;
+}
+
+.card-price{
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+}
+
+.card-category{
+    color:green
+}
+.text-box{
+    position: relative;
+    top: 120px;
+}
+.text-brown{
+    text-align: left;
+    border: 1px  gray;
+    background-color: lightgray;
+    color: rgb(74, 180, 74);
+    padding: 10px;
+}
+.bg-teal{
+    text-align: left;
+    border: 1px blue;
+    background-color: skyblue;
+    color: white;
+} 
+

@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+/* products styling  */
+
+.products-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: green;
+}
