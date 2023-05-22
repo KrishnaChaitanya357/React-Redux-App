@@ -1,6 +1,12 @@
  *{
-    font-family:sans-serif
-  }
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif */
+/* font-family:fantasy */
+ }
+ body{
+    background-color: black;
+ }
 
   .card{
     width:300px;
@@ -9,8 +15,10 @@
   
     .card-img-top{
        margin:auto;
+       margin-top: 3px;
+       
       
-       width: 270px;
+       width: 260px;
        height:250px}
     
 .col{
@@ -26,7 +34,8 @@
 }
 
 .card-category{
-    color:green
+    color:green;
+
 }
 .text-box{
     position: relative;

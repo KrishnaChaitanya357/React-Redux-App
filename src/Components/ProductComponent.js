@@ -8,11 +8,13 @@ const ProductComponent = () => {
   const renderList = products.map((product) => {
     const { id, title, image, price, category } = product;
      let cardTitle;
-    if(title.length<=17){
+    if(title.length<=18){
        cardTitle=title
     }else{
-      cardTitle=title.slice(0,17)
+      cardTitle=title.slice(0,18)
     } 
+
+    let Capcategory =category.toUpperCase()
  
     return (
    
@@ -23,7 +25,7 @@ const ProductComponent = () => {
     <div className="card-body">
       <h4 className="card-title  text-dark">{cardTitle}</h4>
       <h4 className="card-price"> ${price}</h4>
-      <h4 className="card-category"> {category}</h4>
+      <h4 className="card-category"> {Capcategory}</h4>
     </div>
     </div>
     </Link>
